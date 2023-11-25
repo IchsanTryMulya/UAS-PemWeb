@@ -111,3 +111,43 @@ h1 {
   background-color: #294159;
   color: #fcfdfa;
 }
+
+/* Menu */
+
+.menu p,
+.menu h2 {
+  text-align: center;
+  max-width: 30rem;
+  margin: auto;
+  font-weight: 100;
+  line-height: 1.6;
+  color: black;
+}
+
+.menu h5 {
+  max-width: 15rem;
+  text-align: center;
+  margin: auto;
+  font-weight: 100;
+}
+
+.menu .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+  justify-content: center;
+}
+
+.menu .row .menu-card {
+  text-align: center;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 0.5 rem;
+}
+
+.menu .row .menu-card img {
+  padding: 1rem;
+  width: 250px;
+}
+
+/* Menu */
