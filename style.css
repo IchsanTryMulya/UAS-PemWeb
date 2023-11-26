@@ -1,8 +1,7 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&family=Playfair+Display:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&family=Playfair+Display:wght@400;500;600&display=swap");
 
 * {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -31,7 +30,7 @@ header nav ul li {
   display: flex;
 }
 header nav ul li a {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   color: #101a24;
   font-size: 18px;
   font-style: normal;
@@ -42,9 +41,9 @@ header nav ul li a {
 }
 header nav ul li a:hover {
   text-decoration: underline;
-  text-decoration-color: #AD343E;
+  text-decoration-color: #ad343e;
   text-underline-offset: 8px;
-  color: #AD343E;
+  color: #ad343e;
 }
 /* NAVBAR */
 
@@ -65,16 +64,16 @@ main {
 h1,
 h2,
 p {
-  color: #2C2F24;
+  color: #2c2f24;
 }
 p {
   line-height: 1.6;
   font-size: 18px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 h1 {
   font-size: 50px;
-  color: #2C2F24;
+  color: #2c2f24;
 }
 h2 {
   font-size: 30px;
@@ -84,8 +83,8 @@ h2 {
   border: none;
   padding: 12px 18px;
   font-weight: 600;
-  background-color:#AD343E;
-  color: #FFF;
+  background-color: #ad343e;
+  color: #fff;
   border-radius: 12px 0px 12px 0px;
   filter: drop-shadow(0px 15px 30px rgba(0, 0, 0, 0.3));
   cursor: pointer;
@@ -97,9 +96,10 @@ h2 {
 }
 
 /* Menu */
-h3, h5 {
+h3,
+h5 {
   color: #fcfdfa;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 .menu {
   margin-top: 30px;
@@ -140,7 +140,7 @@ h3, h5 {
 }
 .menu-details {
   padding: 5px;
-  background-color: #AD343E;
+  background-color: #ad343e;
   border-bottom-right-radius: 34px;
   cursor: default;
 }
@@ -155,9 +155,39 @@ h3, h5 {
   font-weight: bold;
 }
 .menu .row .menu-card:hover {
-  box-shadow: 0px 0px 4px 1px #AD343E;
+  box-shadow: 0px 0px 4px 1px #ad343e;
   transform: translateY(-10px);
 }
 
 /* Menu */
 
+/* about */
+
+.about {
+  display: flex;
+  margin-top: 30px;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-card-img {
+  margin: 1rem 1rem 1rem 9rem;
+  border-radius: 20px;
+  width: 599;
+  height: 569;
+}
+
+.about .about-container h1,
+h2,
+p {
+  max-width: 700px;
+}
+
+/* about */
