@@ -192,6 +192,47 @@ p {
 
 /* about */
 
+/* Testimoni */
+
+.testimoni {
+  text-align: center;
+  margin: auto;
+}
+
+.testimoni-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 20px;
+}
+
+.card-testimoni {
+  text-align: center;
+  max-width: 30%;
+  padding-top: 1rem;
+  margin-bottom: 10px;
+}
+
+.customer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimoni-img {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 50px;
+}
+
+.testimoni .testimoni-container .card-testimoni h3 {
+  color: rgb(183, 25, 25);
+}
+/* Testimoni */
+
 /* footer */
 
 footer {
